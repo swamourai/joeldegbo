@@ -33,7 +33,7 @@ jobs:
       - name: Build site
         run: npm run build
         env:
-          VITE_BASE_PATH: /joeldegbo/
+          VITE_BASE_PATH: /
 
       - name: Add GitHub Pages route fallback
         run: cp dist/index.html dist/404.html && touch dist/.nojekyll

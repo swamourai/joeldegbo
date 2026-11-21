@@ -15,9 +15,9 @@ La page d’entrée `/` lance la vidéo et ouvre la galerie. La mosaïque est ac
 
 ## GitHub Pages
 
-Le workflow GitHub Actions construit et publie le site à chaque push sur `main`. Dans les paramètres du dépôt, choisir **Settings → Pages → GitHub Actions** comme source de publication. L’adresse du site sera `https://swamourai.github.io/joeldegbo/`.
+Le workflow GitHub Actions construit et publie le site à chaque push sur `main`. Dans les paramètres du dépôt, choisir **Settings → Pages → GitHub Actions** comme source de publication. Le domaine personnalisé configuré est `https://joeldegbo.com`.
 
-Le workflow configure le chemin de base du dépôt et le fallback nécessaire aux routes `/peintures` et `/apropos`.
+Le workflow configure le chemin de base pour le domaine personnalisé et le fallback nécessaire aux routes `/peintures` et `/apropos`.
 
 ## Contenu
 
