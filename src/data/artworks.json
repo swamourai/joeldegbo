@@ -10,7 +10,8 @@
     "filename": "1 FR \"Jardin à la Villepintoise\" Huile sur toile 90 x 130 cm Paris (2013) EN \"Jardin à la Villepintoise\" Oil on canvas 35 x 51 inch Paris (2013).jpg",
     "titleEn": "Jardin à la Villepintoise",
     "location": "Paris",
-    "thumbnail": "/images/1-jardin-a-la-villepintoise-thumb.webp"
+    "thumbnail": "/images/1-jardin-a-la-villepintoise-thumb.webp",
+    "dimensionsEn": "35 × 51 in"
   },
   {
     "id": "2-yuca-de-pasteur",
@@ -23,7 +24,8 @@
     "filename": "2 FR \"Yuca de Pasteur\" Huile sur toile 30 x 50 cm Paris (2013) EN \"Yuca de Pasteur\" Oil on canvas 12 x 16 inch Paris (2013).jpg",
     "titleEn": "Yuca de Pasteur",
     "location": "Paris",
-    "thumbnail": "/images/2-yuca-de-pasteur-thumb.webp"
+    "thumbnail": "/images/2-yuca-de-pasteur-thumb.webp",
+    "dimensionsEn": "12 × 16 in"
   },
   {
     "id": "3-haie-bertrand",
@@ -36,7 +38,8 @@
     "filename": "3 FR \"Haie Bertrand\" Huile sur toile 70 x 70 cm Paris (2014) EN \"Haie Bertrand\" Oil on canvas 27 x 27 inch Paris (2014).jpg",
     "titleEn": "Haie Bertrand",
     "location": "Paris",
-    "thumbnail": "/images/3-haie-bertrand-thumb.webp"
+    "thumbnail": "/images/3-haie-bertrand-thumb.webp",
+    "dimensionsEn": "27 × 27 in"
   },
   {
     "id": "4-tennis-de-la-haie",
@@ -49,7 +52,8 @@
     "filename": "4 FR \"Tennis de la Haie\" Huile sur toile 40 x 100 cm Paris (2014) EN \"Tennis de la Haie\" Oil on canvas 16 x 39 inch Paris (2014).jpg",
     "titleEn": "Tennis de la Haie",
     "location": "Paris",
-    "thumbnail": "/images/4-tennis-de-la-haie-thumb.webp"
+    "thumbnail": "/images/4-tennis-de-la-haie-thumb.webp",
+    "dimensionsEn": "16 × 39 in"
   },
   {
     "id": "5-dechets-de-pasteur",
@@ -62,7 +66,8 @@
     "filename": "5 FR \"Déchets de Pasteur\" Huile sur toile 60 x 40 cm Paris (2014) EN \"Déchets de Pasteur\" Oil on canvas 24 x 16 inch Paris (2014).jpg",
     "titleEn": "Déchets de Pasteur",
     "location": "Paris",
-    "thumbnail": "/images/5-dechets-de-pasteur-thumb.webp"
+    "thumbnail": "/images/5-dechets-de-pasteur-thumb.webp",
+    "dimensionsEn": "24 × 16 in"
   },
   {
     "id": "6-chantier-de-la-haie",
@@ -75,7 +80,8 @@
     "filename": "6 FR \"Chantier de la Haie\" Huile sur toile 50 x 35 cm Paris (2014) EN \"Chantier de la Haie\" Oil on canvas 20 x 14 inch Paris (2014).jpg",
     "titleEn": "Chantier de la Haie",
     "location": "Paris",
-    "thumbnail": "/images/6-chantier-de-la-haie-thumb.webp"
+    "thumbnail": "/images/6-chantier-de-la-haie-thumb.webp",
+    "dimensionsEn": "20 × 14 in"
   },
   {
     "id": "7-square-de-pasteur",
@@ -88,7 +94,8 @@
     "filename": "7 FR \"Square de Pasteur\" Huile sur toile 180 x 150 cm Paris (2014) EN \"Square de Pasteur\" Oil on canvas 71 x 59 inch Paris (2014).jpg",
     "titleEn": "Square de Pasteur",
     "location": "Paris",
-    "thumbnail": "/images/7-square-de-pasteur-thumb.webp"
+    "thumbnail": "/images/7-square-de-pasteur-thumb.webp",
+    "dimensionsEn": "71 × 59 in"
   },
   {
     "id": "8-pont-de-la-haie",
@@ -101,7 +108,8 @@
     "filename": "8 FR \"Pont de la Haie\" Huile sur toile 60 x 60 cm Paris (2014) EN \"Pont de la Haie\" Oil on canvas 60 x 60 inch Paris (2014).jpg",
     "titleEn": "Pont de la Haie",
     "location": "Paris",
-    "thumbnail": "/images/8-pont-de-la-haie-thumb.webp"
+    "thumbnail": "/images/8-pont-de-la-haie-thumb.webp",
+    "dimensionsEn": "60 × 60 in"
   },
   {
     "id": "9-chaufferie-de-villepinte",
@@ -114,7 +122,8 @@
     "filename": "9 FR \"Chaufferie de Villepinte\" Huile sur toile 55 x 40 cm Paris (2014) EN \"Chaufferie de Villepinte\" Oil on canvas 22 x 16 inch Paris (2014).jpg",
     "titleEn": "Chaufferie de Villepinte",
     "location": "Villepinte",
-    "thumbnail": "/images/9-chaufferie-de-villepinte-thumb.webp"
+    "thumbnail": "/images/9-chaufferie-de-villepinte-thumb.webp",
+    "dimensionsEn": "22 × 16 in"
   },
   {
     "id": "10-gare-de-drancy",
@@ -127,7 +136,8 @@
     "filename": "10 FR \"Gare de Drancy\" Huile sur toile Dyptique de 130 x 85 cm chacun Paris (2014) EN \"Gare de Drancy\" Oil on canvas Diptych of 51 x 33 inch each Paris (2014).jpg",
     "titleEn": "Gare de Drancy",
     "location": "Paris",
-    "thumbnail": "/images/10-gare-de-drancy-thumb.webp"
+    "thumbnail": "/images/10-gare-de-drancy-thumb.webp",
+    "dimensionsEn": "51 × 33 in each"
   },
   {
     "id": "11-poubelle-du-lac-meech",
@@ -140,7 +150,8 @@
     "filename": "11 FR \"Poubelle du lac Meech\" Huile sur toile 180 x 260 cm Paris (2015) EN \"Poubelle du lac Meech\" 71 x 102 inch Oil on canvas Paris (2015).jpg",
     "titleEn": "Poubelle du lac Meech",
     "location": "Paris",
-    "thumbnail": "/images/11-poubelle-du-lac-meech-thumb.webp"
+    "thumbnail": "/images/11-poubelle-du-lac-meech-thumb.webp",
+    "dimensionsEn": "71 × 102 in"
   },
   {
     "id": "12-adam-eve",
@@ -153,7 +164,8 @@
     "filename": "12 FR \"Adam & Eve\" Huile sur toile 170 x 190 cm Paris (2015) \"Adam & Eve\" Oil on canvas 67 x 75 inch Paris (2015).jpg",
     "titleEn": "Adam & Eve",
     "location": "Paris",
-    "thumbnail": "/images/12-adam-eve-thumb.webp"
+    "thumbnail": "/images/12-adam-eve-thumb.webp",
+    "dimensionsEn": "67 × 75 in"
   },
   {
     "id": "13-route-eclairee",
@@ -166,7 +178,8 @@
     "filename": "13 FR \"Route éclairée\" Huile sur toile 95 X 120 cm Paris (2015) EN \"Route éclairée\" Oil on canvas 37 x 47 inch Paris (2015).jpg",
     "titleEn": "Route éclairée",
     "location": "Paris",
-    "thumbnail": "/images/13-route-eclairee-thumb.webp"
+    "thumbnail": "/images/13-route-eclairee-thumb.webp",
+    "dimensionsEn": "37 × 47 in"
   },
   {
     "id": "14-element-du-silo-de-moulhard",
@@ -179,7 +192,8 @@
     "filename": "14 FR \"Élément du silo de Moulhard\" Huile sur toile 70 x 40 cm Paris (2015) En \"Élément du silo de Moulhard\" Oil on canvas 27 x 16 inch Paris (2015).jpg",
     "titleEn": "Élément du silo de Moulhard",
     "location": "Paris",
-    "thumbnail": "/images/14-element-du-silo-de-moulhard-thumb.webp"
+    "thumbnail": "/images/14-element-du-silo-de-moulhard-thumb.webp",
+    "dimensionsEn": "27 × 16 in"
   },
   {
     "id": "15-silo-moulhard",
@@ -192,7 +206,8 @@
     "filename": "15 FR \"Silo Moulhard\" Huile sur toile 30 x 30 cm Paris (2015) EN \"Silo Moulhard\" Oil on canvas 12 x 12 inch Paris (2015).jpg",
     "titleEn": "Silo Moulhard",
     "location": "Paris",
-    "thumbnail": "/images/15-silo-moulhard-thumb.webp"
+    "thumbnail": "/images/15-silo-moulhard-thumb.webp",
+    "dimensionsEn": "12 × 12 in"
   },
   {
     "id": "16-ferme-abandonnee",
@@ -205,7 +220,8 @@
     "filename": "16 FR \"Ferme abandonnée\" Huile sur toile 15 x 15 cm Paris (2015) EN \"Ferme abandonnée\" Oil on canvas 6 x 6 inch Paris (2015).jpg",
     "titleEn": "Ferme abandonnée",
     "location": "Paris",
-    "thumbnail": "/images/16-ferme-abandonnee-thumb.webp"
+    "thumbnail": "/images/16-ferme-abandonnee-thumb.webp",
+    "dimensionsEn": "6 × 6 in"
   },
   {
     "id": "17-deux-poteaux",
@@ -218,7 +234,8 @@
     "filename": "17 FR \"Deux poteaux\" Huile sur toile 15 x 15 cm Paris (2015) EN \"Deux poteaux\" Oil on canvas 6 x 6 inch Paris (2015).jpg",
     "titleEn": "Deux poteau",
     "location": "Paris",
-    "thumbnail": "/images/17-deux-poteaux-thumb.webp"
+    "thumbnail": "/images/17-deux-poteaux-thumb.webp",
+    "dimensionsEn": "6 × 6 in"
   },
   {
     "id": "18-trois-silos",
@@ -231,7 +248,8 @@
     "filename": "18 FR \"Trois Silos\" Huile sur toile 100 x 150 cm Paris (2015) EN \"Trois Silos\" Oil on canvas 39 x 59 inch Paris (2015).jpg",
     "titleEn": "Trois Silos",
     "location": "Paris",
-    "thumbnail": "/images/18-trois-silos-thumb.webp"
+    "thumbnail": "/images/18-trois-silos-thumb.webp",
+    "dimensionsEn": "39 × 59 in"
   },
   {
     "id": "19-carcasse",
@@ -244,7 +262,8 @@
     "filename": "19 FR \"Carcasse\" Huile sur toile 95 x 140 cm Miermaigne(2016) EN \"Carcasse\" Oil on canvas 37 x 55 inch Miemaigne (2016).jpg",
     "titleEn": "Carcasse",
     "location": "Miermaigne",
-    "thumbnail": "/images/19-carcasse-thumb.webp"
+    "thumbnail": "/images/19-carcasse-thumb.webp",
+    "dimensionsEn": "37 × 55 in"
   },
   {
     "id": "19-conifere-de-bulle-i",
@@ -257,7 +276,8 @@
     "filename": "20 FR \"Conifère de Bulle I\" Huile sur toile 80 x 50 cm Miermaigne (2015) EN \"Conifère de Bulle I\" Oil on canvas 31 x 20 inch Miermaigne (2015).jpg",
     "titleEn": "Conifère de Bulle I",
     "location": "Miermaigne",
-    "thumbnail": "/images/19-conifere-de-bulle-i-thumb.webp"
+    "thumbnail": "/images/19-conifere-de-bulle-i-thumb.webp",
+    "dimensionsEn": "31 × 20 in"
   },
   {
     "id": "20-conifere-de-bulle-ii",
@@ -270,7 +290,8 @@
     "filename": "21 FR \"Conifère de Bulle II\" Huile sur toile 80 x 50 cm Miermaigne (2015) EN \"Conifère de Bulle II\" Oil on canvas 31 x 20 inch Miermaigne (2015).jpg",
     "titleEn": "Conifère de Bulle II",
     "location": "Miermaigne",
-    "thumbnail": "/images/20-conifere-de-bulle-ii-thumb.webp"
+    "thumbnail": "/images/20-conifere-de-bulle-ii-thumb.webp",
+    "dimensionsEn": "31 × 20 in"
   },
   {
     "id": "21-caddie-dans-le-fosse",
@@ -283,7 +304,8 @@
     "filename": "22 FR \"Caddie dans le fossé\" Huile sur toile 100 x 100 cm Miermaigne (2016) EN \"Caddie dans le fossé\" Oil on canvas 39 x 39 inch Miermaigne (2016).jpg",
     "titleEn": "Caddie dans le fossé",
     "location": "Miermaigne",
-    "thumbnail": "/images/21-caddie-dans-le-fosse-thumb.webp"
+    "thumbnail": "/images/21-caddie-dans-le-fosse-thumb.webp",
+    "dimensionsEn": "39 × 39 in"
   },
   {
     "id": "22-phoenix",
@@ -296,7 +318,8 @@
     "filename": "23 FR \"Phoenix\" Huile sur toile 150 x 60 cm Miermaigne (2016) EN \"Phoenix\" Oil on canvas 59 x 24 inch Miermaigne (2016).jpg",
     "titleEn": "Phoenix",
     "location": "Miermaigne",
-    "thumbnail": "/images/22-phoenix-thumb.webp"
+    "thumbnail": "/images/22-phoenix-thumb.webp",
+    "dimensionsEn": "59 × 24 in"
   },
   {
     "id": "23-de-la-ville-a-la-campagne",
@@ -327,7 +350,8 @@
     "filename": "24 FR \"Bendo de So\" Huile sur toile 200 x 200 cm Miermaigne (2016) EN \"Bendo de So\" Oil on canvas 79 x 79 inch Miermaigne (2016).jpg",
     "titleEn": "Bendo de So",
     "location": "Miermaigne",
-    "thumbnail": "/images/24-bendo-de-so-thumb.webp"
+    "thumbnail": "/images/24-bendo-de-so-thumb.webp",
+    "dimensionsEn": "79 × 79 in"
   },
   {
     "id": "25-artere-1",
@@ -340,7 +364,8 @@
     "filename": "26 FR \"Artère\" 8 Huiles sur toile recto-verso de 200 x 300 cm représentant le Canal de l'Ourcq Aubervilliers (2017) EN \"Artère\" 8 oils on canvas  each 118 x 79 inch depictinc the Canal de l'Ourcq Aubervilliers (2017).jpg",
     "titleEn": "Artère",
     "location": "Aubervilliers",
-    "thumbnail": "/images/25-artere-1-thumb.webp"
+    "thumbnail": "/images/25-artere-1-thumb.webp",
+    "dimensionsEn": "118 × 79 in each"
   },
   {
     "id": "25-artere-2",
@@ -353,7 +378,8 @@
     "filename": "27 FR \"Artère\" 8 Huiles sur toile recto-verso de 200 x 300 cm représentant le Canal de l'Ourcq Aubervilliers (2017) EN \"Artère\" 8 oils on canvas  each 118 x 79 inch depictinc the Canal de l'Ourcq (2017).jpg",
     "titleEn": "Artère",
     "location": "Aubervilliers",
-    "thumbnail": "/images/25-artere-2-thumb.webp"
+    "thumbnail": "/images/25-artere-2-thumb.webp",
+    "dimensionsEn": "118 × 79 in each"
   },
   {
     "id": "26-tel-le-poing-ferme",
@@ -366,7 +392,8 @@
     "filename": "28 FR \"Tel le poing fermé\" Huile sur toile 150 x 100 cm Villepinte (2017) EN \"Tel le poing fermé\" Oil on canvas 59 x 39 inch Villpinte (2017).jpg",
     "titleEn": "Tel le poing fermé",
     "location": "Villepinte",
-    "thumbnail": "/images/26-tel-le-poing-ferme-thumb.webp"
+    "thumbnail": "/images/26-tel-le-poing-ferme-thumb.webp",
+    "dimensionsEn": "59 × 39 in"
   },
   {
     "id": "27-trois-pierres",
@@ -379,7 +406,8 @@
     "filename": "29 FR \"Trois pierres\" Huile sur toile 50 x 50 cm Villepinte (2017) EN \"Trois pierres\" Oil on canvas 20 x 20 inch Villepinte (2017).jpg",
     "titleEn": "Trois pierres",
     "location": "Villepinte",
-    "thumbnail": "/images/27-trois-pierres-thumb.webp"
+    "thumbnail": "/images/27-trois-pierres-thumb.webp",
+    "dimensionsEn": "20 × 20 in"
   },
   {
     "id": "28-chastity-street",
@@ -392,7 +420,8 @@
     "filename": "30 FR \"Chastity Street\" Huile sur toile 220 x 220 cm Chicaco (2019) EN \"Chastity Street\" Oil on canvas 87 x 87 inch Chicago (2019).jpg",
     "titleEn": "Chastity Street",
     "location": "Chicago",
-    "thumbnail": "/images/28-chastity-street-thumb.webp"
+    "thumbnail": "/images/28-chastity-street-thumb.webp",
+    "dimensionsEn": "87 × 87 in"
   },
   {
     "id": "29-the-woodlawns-s-garden",
@@ -405,7 +434,8 @@
     "filename": "31 FR \"The Woodlawns's Garden\" Huile sur toile Dyptique de 160 x 80 cm chacun Chicago (2019) EN \"The Woodlawns's Garden\" Oil on canvas Diptych of 63 x 31 inch each Chicago (2019).jpg",
     "titleEn": "The Woodlawns's Garden",
     "location": "Chicago",
-    "thumbnail": "/images/29-the-woodlawns-s-garden-thumb.webp"
+    "thumbnail": "/images/29-the-woodlawns-s-garden-thumb.webp",
+    "dimensionsEn": "63 × 31 in each"
   },
   {
     "id": "30-two-seasons-in-one",
@@ -418,7 +448,8 @@
     "filename": "32 FR \"Two seasons in one\" Huile sur toile 180 x 180 cm Chicago (2019) EN \"Two seasons in one\" Oil on canvas 71 x 71 inch Chicago (2019).jpg",
     "titleEn": "Two seasons in one",
     "location": "Chicago",
-    "thumbnail": "/images/30-two-seasons-in-one-thumb.webp"
+    "thumbnail": "/images/30-two-seasons-in-one-thumb.webp",
+    "dimensionsEn": "71 × 71 in"
   },
   {
     "id": "31-chi-s-bus-stop",
@@ -431,7 +462,8 @@
     "filename": "33 FR \"Chi's Bus stop\" Huile sur toile Dyptique de 140 x  70 cm chacun Chicago (2019) EN \"Chi's Bus stop\" Oil on canvas Diptych of 55 x 27 inch each Chicago (2019).jpg",
     "titleEn": "Chi's Bus stop",
     "location": "Chicago",
-    "thumbnail": "/images/31-chi-s-bus-stop-thumb.webp"
+    "thumbnail": "/images/31-chi-s-bus-stop-thumb.webp",
+    "dimensionsEn": "55 × 27 in each"
   },
   {
     "id": "32-salt",
@@ -444,7 +476,8 @@
     "filename": "34 FR \"Salt\" Huile sur toile 50 x 50 cm Chicago (2019) EN \"Salt\" Oil on canvas 20 x 20 inch Chicago (2019).jpg",
     "titleEn": "Salt",
     "location": "Chicago",
-    "thumbnail": "/images/32-salt-thumb.webp"
+    "thumbnail": "/images/32-salt-thumb.webp",
+    "dimensionsEn": "20 × 20 in"
   },
   {
     "id": "33-little-hill",
@@ -457,7 +490,8 @@
     "filename": "35 FR \"Little Hill\" Huile sur toile 60 x 60 cm Chicago (2019) EN \"Little Hill\" Oil on canvas 24 x 24 inch Chicago (2019).jpg",
     "titleEn": "Little Hill",
     "location": "Chicago",
-    "thumbnail": "/images/33-little-hill-thumb.webp"
+    "thumbnail": "/images/33-little-hill-thumb.webp",
+    "dimensionsEn": "24 × 24 in"
   },
   {
     "id": "34-michigan-lake",
@@ -470,7 +504,8 @@
     "filename": "36 FR \"Michigan Lake\" Huile sur toile Dyptique de 70 x 70 cm chacun Chicago (2019) EN \"Michigan Lake\" Oil on canvas Diptych of 27 x 27 inch each Chicago (2019).jpg",
     "titleEn": "Michigan Lake",
     "location": "Chicago",
-    "thumbnail": "/images/34-michigan-lake-thumb.webp"
+    "thumbnail": "/images/34-michigan-lake-thumb.webp",
+    "dimensionsEn": "27 × 27 in each"
   },
   {
     "id": "35-affale",
@@ -483,7 +518,8 @@
     "filename": "37 FR \"Affalé\" Huile sur toile 100 x 150 cm Saint-Denis (2020) EN \"Affalé\" Oil on canvas 39 x  59 inch Saint-Denis (2020).jpg",
     "titleEn": "Affalé",
     "location": "Saint-Denis",
-    "thumbnail": "/images/35-affale-thumb.webp"
+    "thumbnail": "/images/35-affale-thumb.webp",
+    "dimensionsEn": "39 × 59 in"
   },
   {
     "id": "36-coma",
@@ -496,7 +532,8 @@
     "filename": "38 FR \"Coma\" Huile sur 150 x 70 cm Saint-Denis (2020) En \"Coma\" Oil on canvas 59 x 27 inch Saint-Denis (2020).jpg",
     "titleEn": "Coma",
     "location": "Saint-Denis",
-    "thumbnail": "/images/36-coma-thumb.webp"
+    "thumbnail": "/images/36-coma-thumb.webp",
+    "dimensionsEn": "59 × 27 in"
   },
   {
     "id": "37-phantom-ship",
@@ -509,12 +546,13 @@
     "filename": "39 FR \"Phantom Ship\" Huile sur toile 100 x 150 cm Saint-Denis (2020) EN \"Phantom Ship\" Oil on canvas 39 x 59 inch Saint-Denis (2020).jpg",
     "titleEn": "Phantom Ship",
     "location": "Saint-Denis",
-    "thumbnail": "/images/37-phantom-ship-thumb.webp"
+    "thumbnail": "/images/37-phantom-ship-thumb.webp",
+    "dimensionsEn": "39 × 59 in"
   },
   {
     "id": "39-a-quatre",
     "title": "À Quatre",
-    "year": "2010",
+    "year": "2020",
     "dimensions": "40 × 60 cm",
     "image": "/images/39-a-quatre.webp",
     "width": 3828,
@@ -522,7 +560,8 @@
     "filename": "41 FR \"À Quatre\" Huile sur toile 40 x 60 cm Saint-Denis (2020) EN \"À Quatre\" Oil on canvas 16 x 24 inch Saint-Denis (2020).jpg",
     "titleEn": "À Quatre",
     "location": "Saint-Denis",
-    "thumbnail": "/images/39-a-quatre-thumb.webp"
+    "thumbnail": "/images/39-a-quatre-thumb.webp",
+    "dimensionsEn": "16 × 24 in"
   },
   {
     "id": "39-motel-mortel",
@@ -535,7 +574,8 @@
     "filename": "40 FR \"Motel mortel\" Huile sur toile 60 x 40 cm Saint-Denis (2020) EN \"Motel mortel\" Oil on canvas 24 x 16 inch Saint-Denis (2020).jpg",
     "titleEn": "Motel mortel",
     "location": "Saint-Denis",
-    "thumbnail": "/images/39-motel-mortel-thumb.webp"
+    "thumbnail": "/images/39-motel-mortel-thumb.webp",
+    "dimensionsEn": "24 × 16 in"
   },
   {
     "id": "40-le-chemin",
@@ -548,7 +588,8 @@
     "filename": "42 FR \"Le chemin\" Huile sur toile 100 x 100 cm Saint-Denis (2020) EN \"Le chemin\" Oil on canvas  39 x 39 inch Saint-Denis (2020).jpg",
     "titleEn": "Le chemin",
     "location": "Saint-Denis",
-    "thumbnail": "/images/40-le-chemin-thumb.webp"
+    "thumbnail": "/images/40-le-chemin-thumb.webp",
+    "dimensionsEn": "39 × 39 in"
   },
   {
     "id": "41-poteaux",
@@ -574,7 +615,8 @@
     "filename": "44 FR \"Se prendre une tole\" Huile sur toile 92 x 73 cm Bobigny (2022) EN \"Se prendre une tole\" Oil on canvas 36 x 29 inch Bobigny (2022).jpg",
     "titleEn": "Se prendre une tole",
     "location": "Bobigny",
-    "thumbnail": "/images/42-se-prendre-une-tole-thumb.webp"
+    "thumbnail": "/images/42-se-prendre-une-tole-thumb.webp",
+    "dimensionsEn": "36 × 29 in"
   },
   {
     "id": "43-entre-deux-lumieres",
@@ -587,7 +629,8 @@
     "filename": "45 FR \"Entre deux lumières\" Huile sur toile 92 x 73 cm Bobigny (2022) EN  \"Entre deux lumières\" Oil on canvas 36 x 29 inch Bobigny (2022).jpg",
     "titleEn": "tre deux lumières",
     "location": "Bobigny",
-    "thumbnail": "/images/43-entre-deux-lumieres-thumb.webp"
+    "thumbnail": "/images/43-entre-deux-lumieres-thumb.webp",
+    "dimensionsEn": "36 × 29 in"
   },
   {
     "id": "44-a-trois",
@@ -600,7 +643,8 @@
     "filename": "46 FR \"À trois\" Huile sur toile 38 x 46 cm Bobigny (2022) EN \"À trois\" Oil on canvas 15 x 18 inch Bobigny (2022).jpg",
     "titleEn": "À trois",
     "location": "Bobigny",
-    "thumbnail": "/images/44-a-trois-thumb.webp"
+    "thumbnail": "/images/44-a-trois-thumb.webp",
+    "dimensionsEn": "15 × 18 in"
   },
   {
     "id": "45-perds-ma-culture",
@@ -613,7 +657,8 @@
     "filename": "47 FR \"Perds ma culture\" Huile sur toile 38 x 46 cm Bobigny (2022) EN \"Perds ma culture\" Oil on canvas 15 x 18 inch Bobigny (2022).JPG",
     "titleEn": "Perds ma culture",
     "location": "Bobigny",
-    "thumbnail": "/images/45-perds-ma-culture-thumb.webp"
+    "thumbnail": "/images/45-perds-ma-culture-thumb.webp",
+    "dimensionsEn": "15 × 18 in"
   },
   {
     "id": "46-voie-de-garage",
@@ -626,7 +671,8 @@
     "filename": "48 FR \"Voie de garage\" Huile sur toile 38 x 46 cm Bobigny (2022) EN \"Voie de garage\" Oil on canvas 15 x 18 inch Bobigny (2022).jpg",
     "titleEn": "Voie de garage",
     "location": "Bobigny",
-    "thumbnail": "/images/46-voie-de-garage-thumb.webp"
+    "thumbnail": "/images/46-voie-de-garage-thumb.webp",
+    "dimensionsEn": "15 × 18 in"
   },
   {
     "id": "47-ancienne-vie",
@@ -639,7 +685,8 @@
     "filename": "55 FR \"Aciennes vies\" Huile sur toile 200 x 300 cm Cotonou (2022) EN \"Anciennes vies\" Oil on canvas 79 x 118 inch Cotonou (2022).jpg",
     "titleEn": "Ancienne vie",
     "location": "Cotonou",
-    "thumbnail": "/images/47-acienne-vie-thumb.webp"
+    "thumbnail": "/images/47-acienne-vie-thumb.webp",
+    "dimensionsEn": "79 × 118 in"
   },
   {
     "id": "48-nouvelles-vies",
@@ -652,7 +699,8 @@
     "filename": "56 FR \"Nouvelles vies\" Huile sur toile 200 x 300 cm Cotonou (2022) EN \"Nouvelles vies\" Oil on canvas 79 x 118 inch Cotonou (2022).jpg",
     "titleEn": "Nouvelles vies",
     "location": "Cotonou",
-    "thumbnail": "/images/48-nouvelles-vies-thumb.webp"
+    "thumbnail": "/images/48-nouvelles-vies-thumb.webp",
+    "dimensionsEn": "79 × 118 in"
   },
   {
     "id": "49-element-de-palais",
@@ -665,7 +713,8 @@
     "filename": "63 FR \"Élément de palais\" Huile sur toile 130 x 162 cm Pantin (2023) EN \"Élément de palais\" Oil on canvas 51 x 64 inch Pantin (2023).jpeg",
     "titleEn": "Élément de palais",
     "location": "Pantin",
-    "thumbnail": "/images/49-element-de-palais-thumb.webp"
+    "thumbnail": "/images/49-element-de-palais-thumb.webp",
+    "dimensionsEn": "51 × 64 in"
   },
   {
     "id": "50-aux-alentours-ii-ou-rue-bouna-traore",
@@ -678,7 +727,8 @@
     "filename": "58 FR \"Aux alentours II ou Rue Bouna Traoré\" Huile sur toile 120 x 120 inch Pantin (2022) EN \"Aux alentours II ou Rue Bouna Traoré\" Oil on canvas 47 x 47 inch Pantin (2022).JPG",
     "titleEn": "Aux alentours II ou Rue Bouna Traoré",
     "location": "Pantin",
-    "thumbnail": "/images/50-aux-alentours-ii-ou-rue-bouna-traore-thumb.webp"
+    "thumbnail": "/images/50-aux-alentours-ii-ou-rue-bouna-traore-thumb.webp",
+    "dimensionsEn": "47 × 47 in"
   },
   {
     "id": "50-aux-alentours-ou-rue-zyed-benna",
@@ -691,7 +741,8 @@
     "filename": "57 FR \"Aux alentours ou Rue Zyed Benna\" Huile sur toile 120 x 120 cm Pantin (2022) EN \"Aux alentours ou Rue Zyed Benna\" Oil on canvas 47 x 47 inch Pantin (2022).jpg",
     "titleEn": "Aux alentours ou Rue Zyed Benna",
     "location": "Pantin",
-    "thumbnail": "/images/50-aux-alentours-ou-rue-zyed-benna-thumb.webp"
+    "thumbnail": "/images/50-aux-alentours-ou-rue-zyed-benna-thumb.webp",
+    "dimensionsEn": "47 × 47 in"
   },
   {
     "id": "51-no9",
@@ -704,7 +755,8 @@
     "filename": "59 FR \"Nº9\" Huile sur toi 200 x 200 cm Pantin (2023) EN \"Nº9\" Oil on canvas 79 × 79 inch Pantin (2023).jpg",
     "titleEn": "Nº9",
     "location": "Pantin",
-    "thumbnail": "/images/51-no9-thumb.webp"
+    "thumbnail": "/images/51-no9-thumb.webp",
+    "dimensionsEn": "79 × 79 in"
   },
   {
     "id": "52-no23",
@@ -717,7 +769,8 @@
     "filename": "60 FR \"Nº23\" Huile sur toile 200 x 200 cm Pantin (2023) EN \"Nº23\" Oil on canvas 79 x 79 inch Pantin (2023).jpg",
     "titleEn": "Nº23",
     "location": "Pantin",
-    "thumbnail": "/images/52-no23-thumb.webp"
+    "thumbnail": "/images/52-no23-thumb.webp",
+    "dimensionsEn": "79 × 79 in"
   },
   {
     "id": "53-no34",
@@ -730,7 +783,8 @@
     "filename": "61 FR \"Nº34\" Huile sur toile 200 × 200 cm Pantin (2023) EN \"Nº34\" Oil on canvas 79 × 79 inch Pantin (2023).jpg",
     "titleEn": "Nº34",
     "location": "Pantin",
-    "thumbnail": "/images/53-no34-thumb.webp"
+    "thumbnail": "/images/53-no34-thumb.webp",
+    "dimensionsEn": "79 × 79 in"
   },
   {
     "id": "54-fenetre-au-bout-du-chemin",
@@ -743,7 +797,8 @@
     "filename": "64 \"Fenêtre au bout du chemin\" Huile sur toile 120 x 120 cm Pantin (2024) EN \"Fenêtre au bout du chemin\" Oil on canvas 47 x 47 inch Pantin (2024).jpg",
     "titleEn": "Fenêtre au bout du chemin",
     "location": "Pantin",
-    "thumbnail": "/images/54-54-fenetre-au-bout-du-chemin-huile-sur-toile-120-x-120-cm-pantin-2024-en-fenetre-au-bout-du-chemin-oil-on-canvas-47-x-47-inch-pantin-2024-thumb.webp"
+    "thumbnail": "/images/54-54-fenetre-au-bout-du-chemin-huile-sur-toile-120-x-120-cm-pantin-2024-en-fenetre-au-bout-du-chemin-oil-on-canvas-47-x-47-inch-pantin-2024-thumb.webp",
+    "dimensionsEn": "47 × 47 in"
   },
   {
     "id": "55-lune-goudronnee",
@@ -756,7 +811,8 @@
     "filename": "65 FR \"Lune Goudronée\" Huile sur toile 200 x 300 cm Pantin (2024) EN \"Lune Goudronée\" Oil on canvas 79 x 118 inch Pantin (2024).jpg",
     "titleEn": "Lune Goudronnée",
     "location": "Pantin",
-    "thumbnail": "/images/55-55-lune-goudronee-huile-sur-toile-200-x-300-cm-pantin-2024-en-lune-goudronee-oil-on-canvas-79-x-118-inch-pantin-2024-thumb.webp"
+    "thumbnail": "/images/55-55-lune-goudronee-huile-sur-toile-200-x-300-cm-pantin-2024-en-lune-goudronee-oil-on-canvas-79-x-118-inch-pantin-2024-thumb.webp",
+    "dimensionsEn": "79 × 118 in"
   },
   {
     "id": "56-rue-le-corbusier",
@@ -769,7 +825,8 @@
     "filename": "66 FR \"Rue Le Corbusier\" Huile sur toile 130 x 162 cm Pantin (2024) EN\"Rue Le Corbusier\" Oil on canvas 51 x 64 inch Pantin (2024).jpg",
     "titleEn": "Rue Le Corbusier",
     "location": "Pantin",
-    "thumbnail": "/images/56-rue-le-corbusier-thumb.webp"
+    "thumbnail": "/images/56-rue-le-corbusier-thumb.webp",
+    "dimensionsEn": "51 × 64 in"
   },
   {
     "id": "57-the-corner",
@@ -782,7 +839,8 @@
     "filename": "67 FR \"The Corner\" Huile sur toile 130 x 162 cm Pantin (2024) EN \"The Corner\" Oil on canvas 51 x 64 inch Pantin (2024).jpg",
     "titleEn": "The corner",
     "location": "Pantin",
-    "thumbnail": "/images/57-the-corner-thumb.webp"
+    "thumbnail": "/images/57-the-corner-thumb.webp",
+    "dimensionsEn": "51 × 64 in"
   },
   {
     "id": "58-elles-ont-brule-aussi-ici",
@@ -795,7 +853,8 @@
     "filename": "68 FR \"Elles ont brulé aussi ici\" Huile sur toile 200 x 200 cm Pantin (2024) EN \"Elles ont brulé aussi ici\" Oil on canvas 79 × 79 inch Pantin (2024).jpg",
     "titleEn": "Elles ont brulé aussi ici",
     "location": "Pantin",
-    "thumbnail": "/images/58-elles-ont-brule-aussi-ici-thumb.webp"
+    "thumbnail": "/images/58-elles-ont-brule-aussi-ici-thumb.webp",
+    "dimensionsEn": "79 × 79 in"
   },
   {
     "id": "59-conteneur-mahorais",
@@ -808,7 +867,8 @@
     "filename": "69 FR \"Conteneur Mahorais\" Huile sur toile 130 x 162 cm Pantin (2024) EN \"Conteneur Mahorais\" Oil on canvas 51x 64 inch Pantin (2024).jpg",
     "titleEn": "Conteneur Mahorais",
     "location": "Pantin",
-    "thumbnail": "/images/59-conteneur-mahorais-thumb.webp"
+    "thumbnail": "/images/59-conteneur-mahorais-thumb.webp",
+    "dimensionsEn": "51 × 64 in"
   },
   {
     "id": "60-conteneur-mahorais-2",
@@ -821,7 +881,8 @@
     "filename": "70 FR \"Conteneur Mahorais 2\" Huile sur toile 170 x 170 cm Pantin (2024) EN \"Conteneur Mahorais 2\" Oil on canvas 66 × 66 inch Pantin (2024).jpeg",
     "titleEn": "Conteneur Mahorais 2",
     "location": "Pantin",
-    "thumbnail": "/images/60-conteneur-mahorais-2-thumb.webp"
+    "thumbnail": "/images/60-conteneur-mahorais-2-thumb.webp",
+    "dimensionsEn": "66 × 66 in"
   },
   {
     "id": "61-terre-metal-bois-ciel",
@@ -834,7 +895,8 @@
     "filename": "71 FR \"Terre, métal, bois, ciel\" 140 x 40 Huile sur toile Pantin (2024) EN \"Terre, métal, bois, ciel\" Oil on canvas 55 x 16 inch Pantin (2024).jpeg",
     "titleEn": "Terre, métal, bois, ciel",
     "location": "Pantin",
-    "thumbnail": "/images/61-terre-metal-bois-ciel-thumb.webp"
+    "thumbnail": "/images/61-terre-metal-bois-ciel-thumb.webp",
+    "dimensionsEn": "55 × 16 in"
   },
   {
     "id": "62-palmiers-en-terre",
@@ -847,6 +909,7 @@
     "filename": "72 FR \"Palmiers en terre\" Huile sur toile 60 x 130 cm Pantin (2024) EN \"Palmiers en terre\" Oil on canvas 24 × 51 inch Pantin (2024).jpg",
     "titleEn": "terre",
     "location": "Pantin",
-    "thumbnail": "/images/62-palmiers-en-terre-thumb.webp"
+    "thumbnail": "/images/62-palmiers-en-terre-thumb.webp",
+    "dimensionsEn": "24 × 51 in"
   }
 ]

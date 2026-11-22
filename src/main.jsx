@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, Facebook, Instagram, Mail, X } from 'lucide-react';
+import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, Facebook, Instagram, Mail, Youtube, X } from 'lucide-react';
 import artworks from './data/artworks.json';
 import './styles.css';
 
@@ -89,7 +89,7 @@ function Intro({ onEnter, landscapeVideo, portraitVideo, title = 'Joël Degbo', 
   }, [onEnter, reducedMotion]);
   const videoSrc = portrait ? portraitVideo : landscapeVideo;
   return <main className="intro" onClick={onEnter}>
-    {!reducedMotion && <video key={videoSrc} className="intro__video" src={videoSrc} autoPlay muted playsInline preload="auto" aria-hidden="true" onEnded={onEnter} onError={onEnter}>
+    {!reducedMotion && <video key={videoSrc} className={`intro__video ${portrait ? 'intro__video--portrait' : 'intro__video--landscape'}`} src={videoSrc} autoPlay muted playsInline preload="auto" aria-hidden="true" onEnded={onEnter} onError={onEnter}>
     </video>}
     <div className="intro__veil" />
     <h1 className="intro__name">{title}</h1>
@@ -151,6 +151,10 @@ function AboutPage({ openPaintings, openAbout }) {
           <Facebook size={17} strokeWidth={1.5} />
           <span>Facebook</span>
         </a>
+        <a href="https://www.youtube.com/@joeldegbo" target="_blank" rel="noreferrer" aria-label="YouTube @joeldegbo">
+          <Youtube size={17} strokeWidth={1.5} />
+          <span>YouTube</span>
+        </a>
       </div>
     </section>
     <footer className="site-footer"><span>Joël Degbo</span><span>{t.aboutMeta}</span><a href={siteUrl('/paintings')} onClick={(e) => { e.preventDefault(); openPaintings(); }}>{copy[lang].nav} <ArrowRight size={14} /></a></footer>
@@ -174,7 +178,7 @@ function ArtworkModal({ item, index, onClose, onStep, lang }) {
     <figure className="lightbox__figure">
       <img src={item.image} alt={item.title} />
       <figcaption>
-      <div><h2>{lang === 'fr' ? item.title : item.titleEn}</h2><p>{[item.year, item.dimensions, item.location].filter(Boolean).join(' · ')}</p>{item.series && <p>{item.series.join(' · ')}</p>}</div>
+      <div><h2>{lang === 'fr' ? item.title : item.titleEn}</h2><p>{[item.year, lang === 'fr' ? item.dimensions : item.dimensionsEn, item.location].filter(Boolean).join(' · ')}</p>{item.series && <p>{item.series.join(' · ')}</p>}</div>
         <span>{copy[lang].details}</span>
       </figcaption>
     </figure>
