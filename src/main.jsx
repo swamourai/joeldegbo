@@ -7,6 +7,7 @@ import './styles.css';
 const BASE_URL = import.meta.env.BASE_URL;
 const siteUrl = (path) => `${BASE_URL}${path.replace(/^\/+/, '')}`;
 const assetUrl = (path) => siteUrl(path);
+const canonicalRoute = (path) => ({ '/peintures': '/paintings', '/apropos': '/about' })[path] || path;
 const artworkList = artworks.map((item) => ({
   ...item,
   image: assetUrl(item.image),
@@ -16,7 +17,7 @@ const artworkList = artworks.map((item) => ({
 const copy = {
   fr: {
     nav: 'Peintures', about: 'À propos', title: 'Peintures', intro: '',
-    note: 'Œuvres', years: '2010 — 2024',
+    note: 'Œuvres',
     all: 'Toutes les œuvres', details: 'Huile sur toile', close: 'Fermer', enter: 'Entrer dans la galerie',
     count: (n) => `${n} œuvres`, next: 'Œuvre suivante', previous: 'Œuvre précédente',
     aboutEyebrow: 'Biographie', aboutTitle: 'À propos', aboutDeck: 'Je peins les lieux dont je viens, pour leur rendre leur valeur.',
@@ -32,7 +33,7 @@ const copy = {
   },
   en: {
     nav: 'Paintings', about: 'About', title: 'Paintings', intro: '',
-    note: 'Selected works', years: '2010 — 2024',
+    note: 'Selected works',
     all: 'All works', details: 'Oil on canvas', close: 'Close', enter: 'Enter the gallery',
     count: (n) => `${n} works`, next: 'Next artwork', previous: 'Previous artwork',
     aboutEyebrow: 'Biography', aboutTitle: 'About', aboutDeck: 'I paint the places I come from, to restore their value.',
@@ -50,11 +51,11 @@ const copy = {
 
 function useLocation() {
   const getRoute = useCallback(() => {
-    if (BASE_URL === '/') return window.location.pathname;
+    if (BASE_URL === '/') return canonicalRoute(window.location.pathname);
     const prefix = BASE_URL.endsWith('/') ? BASE_URL.slice(0, -1) : BASE_URL;
     const pathname = window.location.pathname;
     if (pathname === prefix || pathname === `${prefix}/`) return '/';
-    return pathname.startsWith(`${prefix}/`) ? pathname.slice(prefix.length) : pathname;
+    return canonicalRoute(pathname.startsWith(`${prefix}/`) ? pathname.slice(prefix.length) : pathname);
   }, []);
   const [path, setPath] = useState(getRoute);
   useEffect(() => {
@@ -102,10 +103,10 @@ function Intro({ onEnter, landscapeVideo, portraitVideo, title = 'Joël Degbo', 
 function SiteHeader({ current, lang, setLang, openPaintings, openAbout }) {
   const t = copy[lang];
   return <header className="site-header">
-    <a className="wordmark" href={siteUrl('/peintures')} onClick={(e) => { e.preventDefault(); openPaintings(); }} aria-label="Joël Degbo, accueil">Joël Degbo<span>.</span></a>
+    <a className="wordmark" href={siteUrl('/paintings')} onClick={(e) => { e.preventDefault(); openPaintings(); }} aria-label="Joël Degbo, accueil">Joël Degbo<span>.</span></a>
     <nav className="site-nav" aria-label="Navigation principale">
-      <a className={current === 'paintings' ? 'site-nav__active' : ''} href={siteUrl('/peintures')} onClick={(e) => { e.preventDefault(); openPaintings(); }}>{t.nav}</a>
-      <a className={current === 'about' ? 'site-nav__active' : ''} href={siteUrl('/apropos')} onClick={(e) => { e.preventDefault(); openAbout(); }}>{t.about}</a>
+      <a className={current === 'paintings' ? 'site-nav__active' : ''} href={siteUrl('/paintings')} onClick={(e) => { e.preventDefault(); openPaintings(); }}>{t.nav}</a>
+      <a className={current === 'about' ? 'site-nav__active' : ''} href={siteUrl('/about')} onClick={(e) => { e.preventDefault(); openAbout(); }}>{t.about}</a>
       <button className="language" onClick={() => setLang(lang === 'fr' ? 'en' : 'fr')} aria-label="Change language">{lang === 'fr' ? 'EN' : 'FR'}</button>
     </nav>
   </header>;
@@ -152,7 +153,7 @@ function AboutPage({ openPaintings, openAbout }) {
         </a>
       </div>
     </section>
-    <footer className="site-footer"><span>Joël Degbo</span><span>{t.aboutMeta}</span><a href={siteUrl('/peintures')} onClick={(e) => { e.preventDefault(); openPaintings(); }}>{copy[lang].nav} <ArrowRight size={14} /></a></footer>
+    <footer className="site-footer"><span>Joël Degbo</span><span>{t.aboutMeta}</span><a href={siteUrl('/paintings')} onClick={(e) => { e.preventDefault(); openPaintings(); }}>{copy[lang].nav} <ArrowRight size={14} /></a></footer>
   </main>;
 }
 
@@ -197,7 +198,7 @@ function Gallery({ openPaintings, openAbout }) {
     <SiteHeader current="paintings" lang={lang} setLang={setLang} openPaintings={openPaintings} openAbout={openAbout} />
 
     <section className="collection-intro" id="oeuvres">
-      <div className="collection-intro__eyebrow"><span>{t.note}</span><span>{t.years}</span></div>
+      <div className="collection-intro__eyebrow"><span>{t.note}</span></div>
       <div className="collection-intro__main">
         <h1>{t.title}<span className="period">.</span></h1>
         <p>{t.intro}</p>
@@ -234,17 +235,17 @@ function Gallery({ openPaintings, openAbout }) {
 function App() {
   const [path, navigate] = useLocation();
   const [introDone, setIntroDone] = useState(path !== '/');
-  const [paintingsIntroDone, setPaintingsIntroDone] = useState(path !== '/peintures');
-  const [aboutIntroDone, setAboutIntroDone] = useState(path !== '/apropos');
-  const enterHome = useCallback(() => { setIntroDone(true); setPaintingsIntroDone(true); navigate('/peintures'); }, [navigate]);
-  const openPaintings = useCallback(() => { setPaintingsIntroDone(false); navigate('/peintures'); }, [navigate]);
-  const openAbout = useCallback(() => { setAboutIntroDone(false); navigate('/apropos'); }, [navigate]);
+  const [paintingsIntroDone, setPaintingsIntroDone] = useState(path !== '/paintings');
+  const [aboutIntroDone, setAboutIntroDone] = useState(path !== '/about');
+  const enterHome = useCallback(() => { setIntroDone(true); setPaintingsIntroDone(true); navigate('/paintings'); }, [navigate]);
+  const openPaintings = useCallback(() => { setPaintingsIntroDone(false); navigate('/paintings'); }, [navigate]);
+  const openAbout = useCallback(() => { setAboutIntroDone(false); navigate('/about'); }, [navigate]);
   const finishPaintingsIntro = useCallback(() => setPaintingsIntroDone(true), []);
-  useEffect(() => { if (path !== '/apropos') document.title = 'Joël Degbo — Peintures'; }, [path]);
+  useEffect(() => { if (path !== '/about') document.title = 'Joël Degbo — Peintures'; }, [path]);
   if (path === '/' && !introDone) return <Intro onEnter={enterHome} landscapeVideo={assetUrl('/video/home-landscape.mp4')} portraitVideo={assetUrl('/video/home-portrait.mp4')} />;
-  if (path === '/apropos' && !aboutIntroDone) return <Intro onEnter={() => setAboutIntroDone(true)} landscapeVideo={assetUrl('/video/about-landscape.mp4')} portraitVideo={assetUrl('/video/about-portrait.mp4')} title="À propos" action={copy.fr.aboutEnter} index="Joël Degbo · Artiste peintre" />;
-  if (path === '/apropos') return <AboutPage openPaintings={openPaintings} openAbout={openAbout} />;
-  if (path === '/peintures' && !paintingsIntroDone) return <Intro onEnter={finishPaintingsIntro} landscapeVideo={assetUrl('/video/paintings-landscape.mp4')} portraitVideo={assetUrl('/video/paintings-portrait.mp4')} title="Peintures" action={copy.fr.aboutEnter} index="Joël Degbo · Artiste peintre" />;
+  if (path === '/about' && !aboutIntroDone) return <Intro onEnter={() => setAboutIntroDone(true)} landscapeVideo={assetUrl('/video/about-landscape.mp4')} portraitVideo={assetUrl('/video/about-portrait.mp4')} title="À propos" action={copy.fr.aboutEnter} index="Joël Degbo · Artiste peintre" />;
+  if (path === '/about') return <AboutPage openPaintings={openPaintings} openAbout={openAbout} />;
+  if (path === '/paintings' && !paintingsIntroDone) return <Intro onEnter={finishPaintingsIntro} landscapeVideo={assetUrl('/video/paintings-landscape.mp4')} portraitVideo={assetUrl('/video/paintings-portrait.mp4')} title="Peintures" action={copy.fr.aboutEnter} index="Joël Degbo · Artiste peintre" />;
   return <Gallery openPaintings={openPaintings} openAbout={openAbout} />;
 }
 
