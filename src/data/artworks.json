@@ -911,5 +911,19 @@
     "location": "Pantin",
     "thumbnail": "/images/62-palmiers-en-terre-thumb.webp",
     "dimensionsEn": "24 × 51 in"
+  },
+  {
+    "id": "73-triple-foyer",
+    "title": "Triple foyer",
+    "year": "2026",
+    "dimensions": "40 × 60 cm",
+    "image": "/images/73-triple-foyer.webp",
+    "width": 3463,
+    "height": 2334,
+    "filename": "73 FR _Triple foyer_ Huile sur toile 40 x 60 cm Pointe-Noire EN _Triple Foyer_ Oil on canvas 16 x 24 inch Pointe-Noire (2026).jpg",
+    "titleEn": "Triple Foyer",
+    "location": "Pointe-Noire",
+    "thumbnail": "/images/73-triple-foyer-thumb.webp",
+    "dimensionsEn": "16 × 24 in"
   }
 ]
